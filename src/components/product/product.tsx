@@ -10,7 +10,7 @@ interface ProductProps {
 export const Product: React.FC<ProductProps> = ({ name, description, imageSrc, moq }) => {
 	return (
 		<div className="product">
-			<div>
+			<div className="product-image">
 				<img src={imageSrc} alt="bag" className="image" />
 			</div>
 			<div className="description">
