@@ -19,7 +19,7 @@ export const Product: React.FC<ProductProps> = ({ name, description, imageSrc, m
 				<p className="contact">MOQ: {moq} (minimum order quantitiy) </p>
 				<p className="contact">
 					Contact for quote:
-					<a href="mailto: dannadavis4u@gmail.com">dannadavis4u@gmail.com</a>
+					<a href="mailto: thebagladysinfo@gmail.com">thebagladysinfo@gmail.com</a>
 				</p>
 			</div>
 		</div>
