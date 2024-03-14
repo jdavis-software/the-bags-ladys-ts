@@ -17,6 +17,7 @@ function App() {
 					<img src={logo} className="logo" alt="logo" />
 				</div>
 			</main>
+			<div>Website coming soon...</div>
 			<div className="product-container">
 				{products.map((product, index) => {
 					return <Product key={index} imageSrc={product.imgSrc} name={product.name} moq={product.moq} description={product.description} />;
