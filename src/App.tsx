@@ -9,7 +9,7 @@ function App() {
 		<div className="app">
 			<header className="header">
 				<div className="logo-container">
-					<div className="pacifico logo-text">The Bag Ladys.com</div>
+					<div className="comic-neue logo-text">The Bag Ladys.com</div>
 				</div>
 			</header>
 			<main className="main">
@@ -17,10 +17,10 @@ function App() {
 					<img src={logo} className="logo" alt="logo" />
 				</div>
 			</main>
-			<div>Website coming soon...</div>
+			{/* <div>Website coming soon...</div> */}
 			<div className="product-container">
 				{products.map((product, index) => {
-					return <Product key={index} imageSrc={product.imgSrc} name={product.name} moq={product.moq} description={product.description} />;
+					return <Product key={index} imageSrc={product.imgSrc} name={product.name} description={product.description} material={product.material} />;
 				})}
 			</div>
 		</div>

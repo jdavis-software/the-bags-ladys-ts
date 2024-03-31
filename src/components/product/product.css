@@ -25,9 +25,11 @@
 .image {
 	height: 400px;
 	width: 400px;
+	object-fit: cover;
 }
 
-.description {
+.description,
+.materials {
 	display: flex;
 	flex-direction: column;
 	align-items: flex-start;

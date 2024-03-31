@@ -1,55 +1,94 @@
-import catbag from './assets/brown-cat.jpg';
-import cartoonDog from './assets/cartoon-dog.jpg';
-import brownDog from './assets/brown-dogs.jpg';
-import blueDog from './assets/blue-dogs.jpg';
-import blackBag from './assets/black-bag.jpg';
-import alaskaBag from './assets/alaska.png';
-import blessingsBag from './assets/blessings.png';
+import cornflowerBlue from './assets/cornflower-blue.png';
+import darkBeigePebbles from './assets/dark-beige-pebbles.png';
+import darkPear from './assets/dark-pear.png';
+import darkTealCyan from './assets/dark-teal-cyan.jpg';
+import dustyPlum from './assets/dusty-plum.png';
+import goldenYellowDots from './assets/golden-yellow-dots.png';
+import lavenderWaves from './assets/lavender-waves.png';
+import miniWhales from './assets/mini-whales.png';
+import streamOfFish from './assets/streams-of-fish.png';
+import podOfWhales from './assets/pod-of-whales.png';
+import abstractMountain from './assets/abstract-mountain.png';
+import abstractOcean from './assets/abstract-ocean.png';
+import tanStripe from './assets/tan-stripe.png';
 
-// export const products = [
-//   {
-//     name: "Cat Bag",
-//     description: `Large foldable, reusable, eco friendly shopping bag. Great for groceries up to 50 lbs. Also has pocket size bag to carry in ' purse for extra travel bag for shopping on the go. Size Large 46 cm wide x 60 cm long  ( approx 18" x 23.5") . 190T Polyester Fabric.`,
-//     imgSrc: catbag,
-//     moq: "1,000",
-//   },
-//   {
-//     name: "Cartoon Dog heads (reddish pink)",
-//     moq: "1,000",
-//     imgSrc: cartoonDog,
-//     description: `Large foldable, reusable, eco friendly shopping bag. Great for groceries up to 50 lbs. Also has pocket size bag to carry in ' purse for extra travel bag for shopping on the go. Size Large 46 cm wide x 60 cm long  ( approx 18 " x 23.5") . 190T Polyester Fabric`
-//   },
-//   {
-//     name: "Animated Variety of Dogs (brown)",
-//     moq: "100",
-//     imgSrc: brownDog,
-//     description: `Medium sized bag that is Customer Eco Friendly  shopping bag. Great for groceries, and pocket or purse size bag to carry for extra travel bag for shopping on the go. Size is 38 cm x 59 cm (approx 14.9" x 23.2") and small fold up pouch is 10 cm x 10cm (3.9 " x 3.9"') RPET/190T, 210D Polyester Nylon`
-//   },
-//   {
-//     name: "Blue Green handbag of Dogs",
-//     moq: "300",
-//     imgSrc: blueDog,
-//     description: `Foldable and Reusable hand sized tote bag that comes with fold up pouch. Perfect use for stylish extra retail or lunch size bag that will fit in pocket or purse. Size is 35cm x 40 cm (approx 13.7 " x 15.7")`
-//   },
-//   {
-//     name: "Customized logo for Business",
-//     moq: "1,000",
-//     imgSrc: alaskaBag,
-//     description: `Strong foldable reusable shoulder tote bag that comes with an attachable stylish pouch. Durable waterproof material, and very washable for reusable use over and ' over. Size is  43 cm x 70 cm (approx 16.9" x 27" tall). Great for Cruise Travel and Port Shopping.Custom Design Bags available email requests`
-//   },
-//   {
-//     name: "Customized Designer Travel Tote - Blessings Bag",
-//     moq: "1,000",
-//     imgSrc: blessingsBag,
-//     description: `Strong foldable reusable shoulder  tote bag that comes with an attachable stylish pouch. Durable waterproof material, and very washable for reusable use over and ' over. Size is  43 cm x 70 cm (approx 16.9" x 27" tall). Great for Travel and Shopping.Custom Design Bags available email requests`
-//   },
-//   {
-//     name: "Customized Designer Travel Tote",
-//     moq: "100",
-//     imgSrc: blackBag,
-//     description: `Large Capacity Travel Bag Duffel Bag with Shoe Compartment Sport Gym Travel Waterproof Black Weekender bag for outdoor`
-//   },
-
-// ]
-
-export const products = [];
+export const products = [
+	{
+		name: 'Cornflower Blue',
+		imgSrc: cornflowerBlue,
+		description: `Soft Breathable Cotton Knit Neckie, approx size 8 in High, and 9.75 in wide`,
+		material: `95% Cotton Knit, 5% Spandex`,
+	},
+	{
+		name: 'Dark Beige Rose w/ Pebbles',
+		imgSrc: darkBeigePebbles,
+		description: `Soft Breathable Cotton Knit Neckie, approx size 8 in High, and 9.75 in wide`,
+		material: `95% Cotton Knit, 5% Spandex`,
+	},
+	{
+		name: 'Dark Pear',
+		imgSrc: darkPear,
+		description: `Soft Breathable Cotton Knit Neckie, approx size 8 in High, and 9.75 in wide`,
+		material: `95% Cotton Knit, 5% Spandex`,
+	},
+	{
+		name: 'Dark Teal Cyan',
+		imgSrc: darkTealCyan,
+		description: `Soft Breathable Cotton Knit Neckie, approx size 8 in High, and 9.75 in wide`,
+		material: `95% Cotton Knit, 5% Spandex`,
+	},
+	{
+		name: 'Dusty Plum',
+		imgSrc: dustyPlum,
+		description: `Soft Breathable Cotton Knit Neckie, approx size 8 in High, and 9.75 in wide`,
+		material: `95% Cotton Knit, 5% Spandex`,
+	},
+	{
+		name: 'Golden Poppy w/ Snow',
+		imgSrc: goldenYellowDots,
+		description: `Soft Breathable Cotton Knit Neckie, approx size 8 in High, and 9.75 in wide`,
+		material: `95% Cotton Knit, 5% Spandex`,
+	},
+	{
+		name: 'Lavender Waves',
+		imgSrc: lavenderWaves,
+		description: `Soft Breathable Cotton Knit Neckie, approx size 8 in High, and 9.75 in wide`,
+		material: `93% Cotton Knit, 7% Spandex`,
+	},
+	{
+		name: 'Streams of Fish',
+		imgSrc: streamOfFish,
+		description: `Soft Breathable Cotton Knit Neckie, approx size 8 in High, and 9.75 in wide`,
+		material: `95% Cotton Knit, 5% Spandex`,
+	},
+	{
+		name: 'Mini Whales',
+		imgSrc: miniWhales,
+		description: `Soft Breathable Cotton Knit Neckie, approx size 8 in High, and 9.75 in wide`,
+		material: `95% Cotton Knit, 5% Spandex`,
+	},
+	{
+		name: 'Pod of Whales',
+		imgSrc: podOfWhales,
+		description: `Soft Breathable Cotton Knit Neckie, approx size 8 in High, and 9.75 in wide`,
+		material: `95% Polyester, 5% Spandex`,
+	},
+	{
+		name: 'Abstract Mountain',
+		imgSrc: abstractMountain,
+		description: `Soft Breathable Cotton Knit Neckie, approx size 8 in High, and 9.75 in wide`,
+		material: `93% Polyester, 7% Spandex`,
+	},
+	{
+		name: 'Abstract Ocean',
+		imgSrc: abstractOcean,
+		description: `Soft Breathable Cotton Knit Neckie, approx size 8 in High, and 9.75 in wide`,
+		material: `100% Cotton Knit`,
+	},
+	{
+		name: 'Tan Stripes',
+		imgSrc: tanStripe,
+		description: `Soft Breathable Cotton Knit Neckie, approx size 8 in High, and 9.75 in wide`,
+		material: `93% Polyester, 7% Spandex`,
+	},
+];
